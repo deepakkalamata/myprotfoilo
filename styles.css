@@ -1,0 +1,120 @@
+body{
+  color:#40554E;
+  margin: 0;                           /* Div tag Lo unnam atter ki borders ni remove chesthundhi*/
+  text-align: center;                 /* matter antha centre Loki set ayyiddhi*/
+  font-family: 'Merriweather',serif;
+  /*font-size: 10%; */
+}
+h1{
+  /*width:5%;   /* margin-top:0 ,h1 tag pina space remove chesthundhi But width:10% maintain cheyyadaniki*/
+/*  margin:0 auto 0 auto;                            /* we use margin,auto left and right sides ki apply chestham to keep text in the center*/
+margin: 50px auto 0 auto;
+font-family: 'Sacramento',cursive;
+font-size: 90px;
+color:  #66BFBF;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size:2.5rem;
+  color:  #66BFBF;
+  font-weight: normal;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #66BFBF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{                                                                      /* HOVER*/
+  color: #EAf6f6;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+
+     margin:100px auto;
+}
+.bottom-container{
+     padding:50px 0 20px;
+     background-color: #66BFBF;
+}
+.myphoto{
+  width:10%;
+  height:30%;
+
+}
+.skill-row1{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+.skill-row2{
+  width:50%;
+  margin:200px auto 200px auto;
+  text-align: left;
+}
+.skill-img1{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.chan{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top:450px;
+}
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:60px;
+}
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #000000;
+  -webkit-box-shadow: 0 1px 3px #66BFBF;
+  -moz-box-shadow: 0 1px 3px #66BFBF;
+  box-shadow: 0 1px 3px #66BFBF;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background:  #30e3cb;
+  background-image: -webkit-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
